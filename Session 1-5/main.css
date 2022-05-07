@@ -1,0 +1,104 @@
+#frontend {
+  background-color: lightgreen;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.dark {
+  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.css-syntax {
+  width: 400px;
+  height: auto;
+  border: 4px solid black;
+  margin: 0 auto;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-item {
+  padding: 8px 12px;
+  margin: 0 8px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+.nav-item:hover {
+  padding: 8px 12px;
+  background-color: blue;
+}
+.nav-items > a:hover {
+  color: aliceblue;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-btn {
+  padding: 8px 16px;
+  background-color: yellow;
+  font-weight: 500;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.signup-btn {
+  width: 150px;
+  padding: 8px 16px;
+  background-color: green;
+  font-weight: 500;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.main-header {
+  margin-top: 28px;
+  width: 100vw; /*vw stands for view width*/
+  height: 100vw; /*vh stands for view height*/
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main {
+  display: block;
+}
+
+.left-section {
+}
+.right-section {
+}
+
+.right-section > .header-image {
+  width: 600px;
+  border-radius: 20px;
+}
+
+nav > a {
+  color: green;
+}

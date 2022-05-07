@@ -1,0 +1,11 @@
+#myForm {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}

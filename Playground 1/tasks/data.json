@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "Cut grass": false,
+    "Clean room": false,
+    "Go to gym": true,
+    "Make dinner": false
+  }
+}

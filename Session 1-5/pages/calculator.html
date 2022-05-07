@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="calculatorStyle.css" />
+    <title>Document</title>
+  </head>
+  <body class="dark">
+    <nav class="nav-items">
+      <a class="nav-item" id="home" href="../index.html">Home</a>
+      <a class="nav-item" href="./pages/calculator.html">Calculator</a>
+      <a class="nav-item" href="index.html">About us</a>
+      <a class="nav-item" href="index.html">Contact us</a>
+    </nav>
+    <h1>Calculator</h1>
+
+    <main class="container main">
+      <div class="calculator-body">
+        <div class="calc-screen"></div>
+        <div class="cacl-btns">
+          <div class="btn-row">
+            <input type="button" value="AC" class="calc-btn top"></input>
+            <input type="button" value="+/-" class="calc-btn top"></input>
+            <input type="button" value="+" class="calc-btn top"></input>
+            <input type="button" data-delete value="DEL" class="calc-btn operate"></input>
+          </div>
+          <div class="btn-row">
+            <input type="button" data-number value="7" class="calc-btn numb"></input>
+            <input type="button" data-number value="8" class="calc-btn numb"></input>
+            <input type="button" data-number value="9" class="calc-btn numb"></input>
+            <input type="button" data-operation value="x" class="calc-btn operate"></input>
+          </div>
+          <div class="btn-row">
+            <input type="button" data-number value="4" class="calc-btn numb"></input>
+            <input type="button" data-number value="5" class="calc-btn numb"></input>
+            <input type="button" data-number value="6" class="calc-btn numb"></input>
+            <input type="button" data-operation value="-" class="calc-btn operate"></input>
+          </div>
+          <div class="btn-row">
+            <input type="button" data-number value="1" class="calc-btn numb"></input>
+            <input type="button" data-number value="2" class="calc-btn numb"></input>
+            <input type="button" data-number value="3" class="calc-btn numb"></input>
+            <input type="button" data-operation value="+" class="calc-btn operate"></input>
+          </div>
+          <div class="btn-row">
+            <input type="button" data-number value="0" class="calc-btn numb zero"></input>
+            <input type="button" data-number value="." class="calc-btn numb"></input>
+            <input type="button" data-equals value="=" class="calc-btn operate"></input>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="calc.js"></script>
+  </body>
+</html>
